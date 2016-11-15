@@ -1,0 +1,361 @@
+.blur{
+    -webkit-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
+}
+
+
+.welcome {
+	background: url(../images/mainPage/sectionWelcome.jpg) 0px 10vh no-repeat;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.shares {
+	background: url(../images/mainPage/sectionActions.jpg) top center no-repeat;
+}
+.backgroundCover {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/****/
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.containerFluid {
+	width: 100%;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.targetFlexVerticalCenter {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+/****/
+.header, .footer {
+	background-color: #fff;
+	height: 10vh;
+	flex: 0 0 auto;
+}
+.logo {
+
+}
+.phone {
+	font-family: LatoWebBold;
+	font-size: 18px;
+	color: #b08fbd;
+}
+ul.mainMenu {
+	width: 430px;
+}
+ul.mainMenu > li {
+	
+}
+ul.mainMenu > li > a {
+	font-family: LatoWeb;
+	font-size: 18px;
+	color: #464c55;
+	text-decoration: none;
+}
+/*****/
+.welcomePresentation{
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.welcomeH1 {
+	font-family: LatoWebBold;
+	font-size: 3.9em;
+	color: #fff;
+	text-shadow: 0 0 1px #494849,0 0 90px rgba(176, 203, 31, 0.61 );
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	text-align: center;
+	/*padding-top: 8.3vh;*/
+}
+.welcomeH2 {
+	font-family: LatoWebLight;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+}
+.welcomeH2 span {
+	text-transform: uppercase;
+}
+.welcomeSlider {
+	width: 1030px;
+	margin: 0 auto;
+	margin-top: 8.9vh;
+}
+.toShares {
+	text-align: center;
+	padding-top: 10.4vh;
+}
+.toShares > a {
+	font-family: LatoWeb;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+.toShares > a:after {
+	content: '';
+	background: url(../images/mainPage/arrowDown.png) no-repeat center center;
+	width: 17px;
+	height: 10px;
+	position: absolute;
+	left: 40px;
+	top: 17px;
+} 
+/******/
+.sharesSlider {
+	flex: 1 0 auto;
+	display: flex !important;
+	align-items: center;	
+}
+.sharesSliderBlock {
+    height: 612px !important;
+	width: 1114px;
+}
+.share1 {
+	background: url(../images/mainPage/verticalSlider.png) no-repeat top center;
+}
+.shareH1{
+	font-family: LatoWebBold;
+	font-size: 3.7em;
+	color: #87539b;
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 300px;
+	padding-left: 60px;
+}
+.shareH2{
+	font-family: LatoWeb;
+	font-size: 2.2em;
+	color: #535353;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.2em;
+	padding-left: 60px;
+}
+/******/
+.social {
+	display: flex;
+	justify-content: space-between;
+	width: 120px;
+}
+
+.servises {
+	background-color: #fcf4ef;
+}
+
+.servisesInfo {
+	background: url(../images/servisesPage/serviseInfo.jpg) top center no-repeat;	
+}
+
+
+
+@media (min-width: 1367px) {
+  	.serviseNode {
+		width: 300px;
+		height: 200px;
+		position: relative;
+		text-align: center;
+	}
+
+	.serviseNodes {
+		padding-top: 3%;
+	}	
+}
+
+.serviseNodes {
+	padding-top: 3vh;
+}
+
+.serviseNode {
+	width: 300px;
+	height: 28vh;
+	position: relative;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: 0ms;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nodeTextInfo {
+	font-family:LatoWeb;
+	font-size: 1.6em; 
+	color: #fefefe;
+	padding-top: 2vh;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	display: block;
+	padding: 0 10px;
+}
+
+.nodeTextInfoButtonWrapper {
+	display: block;
+	position: relative;
+}
+
+.nodeTextInfoButton {
+	font-family:LatoWeb;
+	font-size: 1.1em; 
+	color: #fefefe;
+	padding: 14px 20px;
+	border-radius: 5px;
+	background-color: #b0cb1f;
+	text-decoration: none;
+}
+
+.nodeTextInfo:first-letter {
+	color: #b0cb1f;	
+}
+
+.serviseNode:hover {
+	box-shadow:0 0 0 128px rgba(20, 20, 20, 0.8) inset;
+	background-color: #141414;
+	opacity: 1;
+	transition: 0ms;
+}
+
+.portfolioGridStrizhkaZhen {
+	background: url(../images/servisesPage/portfolioGridStrizhkaZhen.jpg) top center no-repeat;
+}
+
+.portfolioGridStrizhkaMuzh {
+	background: url(../images/servisesPage/portfolioGridStrizhkaMuzh.jpg) top center no-repeat;
+}
+
+.portfolioGridNarash {
+	background: url(../images/servisesPage/portfolioGridNarash.jpg) top center no-repeat;
+}
+
+.portfolioGridLechenie {
+	background: url(../images/servisesPage/portfolioGridLechenie.jpg) top center no-repeat;
+}
+
+.portfolioGridNode5 {
+	background: url(../images/servisesPage/portfolioGridNode5.jpg) top center no-repeat;
+}
+
+.portfolioGridNode6 {
+	background: url(../images/servisesPage/portfolioGridNode6.jpg) top center no-repeat;
+}
+
+.portfolioGridTeni {
+	background: url(../images/servisesPage/portfolioGridTeni.jpg) top center no-repeat;
+}
+
+.portfolioGridMakijazh {
+	background: url(../images/servisesPage/portfolioGridMakijazh.jpg) top center no-repeat;
+}
+
+.portfolioGridNode9 {
+	background: url(../images/servisesPage/portfolioGridNode9.jpg) top center no-repeat;
+}
+
+.portfolioGridMassazh {
+	background: url(../images/servisesPage/portfolioGridMassazh.jpg) top center no-repeat;
+}
+
+.portfolioGridSolarij{
+	background: url(../images/servisesPage/portfolioGridSolarij.jpg) top center no-repeat;
+}
+
+.portfolioGridSredstva{
+	background: url(../images/servisesPage/portfolioGridSredstva.jpg) top center no-repeat;
+}
+
+.servisesInfoWrap {
+	display: flex;
+	flex: 1 0 auto;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.servisesInfoLogo {
+}
+
+.servicesDescription {
+	width: 61%;
+}
+
+.serviseHeader {
+	font-family: LatoWebBold;
+	font-size: 3.7em;
+	color: #535353;
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 6%;
+}
+
+.serviseHeader:first-letter {
+	color: #afcb1d;
+}
+
+.serviseSubHeader {
+	font-family: LatoWebLight;
+	font-size: 2.2em;
+	color: #535353;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.1em;	
+	padding-top: 0.5%;	
+}
+
+.serviseDescription {
+	font-family:LatoWebLight;
+	font-size: 1.6em; 
+	color: #535353;
+	padding-top: 4.5%;
+}
+
+.servicesPrices {
+	width: 39%;
+	text-align: right;
+}
+
+.servicesPrices p {
+	font-family: LatoWebBold;
+	font-size: 2.2em;
+	color: #9f74a5;
+}
+
+.servicesPrices p span {
+	color: #b0cb1f;
+}
+
+.toServises {
+	text-align: center;
+	padding-top: 2.4vh;
+	position: relative;
+}
+
+.toServises > a:after {
+	content: '';
+	background: url(../images/servisesPage/toServises.png) no-repeat center center;
+	width: 17px;
+	height: 10px;
+	position: absolute;
+	left: 40px;
+	top: 17px;
+} 
