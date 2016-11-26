@@ -14,6 +14,11 @@ $(document).ready(function() {
 		verticalCentered: false
 	});
 
+	$('#wrapperForFullpagePluginContacts').fullpage({
+		anchors:['contactsInfo', 'contactsMap'],
+		verticalCentered: false
+	});
+
 	$('.welcomeSlider').slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,

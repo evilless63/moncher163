@@ -597,6 +597,97 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
     content: url(../images/aboutPage/aboutReviewsLeft.png);
 }
 
+
+.contactsInfo {
+	background: url(../images/contactsPage/adress.jpg) center no-repeat
+		
+}
+
+.contactsMap {
+	background: #fff;	
+}
+
+.toMap {
+	
+}
+
+.toMap > a {
+	color: #535353;
+	width: 300px;
+}
+
+.toMap > a:after {
+	content: '';
+	background: url(../images/contactsPage/toMap.png) no-repeat center center;
+	width: 17px;
+	height: 10px;
+	position: absolute;
+    top: 45px;
+	    left: 140px;
+} 
+
+.toContacts {
+    text-align: center;
+    margin-top: 1%;
+    position: relative;
+    z-index: 3000;
+}
+
+.toContacts > a {
+	position: relative;
+	    width: 403px;
+}
+
+.toContacts > a:after {
+	content: '';
+    background: url(../images/contactsPage/toContacts.png) no-repeat center center;
+    width: 333px;
+    height: 93px;
+    position: absolute;
+    left: 40px;
+    top: 17px; 
+}
+
+.ContactsTitle {
+	font-family: 'LatoWebBold';
+	font-size: 3.6em;
+	color: #834e98;
+	text-transform: uppercase;
+}
+
+.ContactsTitle > span {
+	color: #b1cc23;
+	text-align: center;
+}
+
+.ContactsAdress {
+	font-family: 'LatoWebBold';
+	font-size: 2.8em;
+	line-height: 1.3em;
+    color: #834e98;
+    margin-top: 5.5%;
+	text-align: center;
+}
+
+.ContactsPhone {
+	font-family: 'LatoWebBold';
+	font-size: 2.8em;
+	color: #535353;
+	margin-top: 4%;
+	text-align: center;
+	margin-bottom: 9%;
+}
+
+.contactsSection {
+    align-items: center;	
+}
+
+.ymaps-2-1-45-map-bg-ru {
+	filter: saturate(0); 
+}
+
+
+
 @media (min-width: 768px) {
 	.ourAdvantagesBlock {
 	    width: 20.333333%;
