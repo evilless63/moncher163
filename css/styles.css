@@ -25,7 +25,7 @@
 }
 /****/
 .container {
-	width: 1200px;
+	width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -170,26 +170,14 @@ ul.mainMenu > li > a {
 
 
 
-@media (min-width: 1367px) {
-  	.serviseNode {
-		width: 300px;
-		height: 200px;
-		position: relative;
-		text-align: center;
-	}
-
-	.serviseNodes {
-		padding-top: 3%;
-	}	
-}
 
 .serviseNodes {
-	padding-top: 3vh;
+	padding-top: 2%;
 }
 
 .serviseNode {
 	width: 300px;
-	height: 28vh;
+	height: 27vh;
 	position: relative;
 	opacity: 0.5;
 	cursor: pointer;
@@ -346,8 +334,14 @@ ul.mainMenu > li > a {
 
 .toServises {
 	text-align: center;
-	padding-top: 2.4vh;
+    padding-top: 5.4vh;
 	position: relative;
+	margin: 0 auto;
+}
+
+.toServises > a {
+	display: block;
+	width: 100px;
 }
 
 .toServises > a:after {
@@ -359,3 +353,303 @@ ul.mainMenu > li > a {
 	left: 40px;
 	top: 17px;
 } 
+
+
+
+.aboutUs {
+	background: url(../images/aboutPage/aboutWe.jpg) top center no-repeat;	
+}
+
+.clientReviews {
+	background: url(../images/aboutPage/aboutReviews.jpg) top center no-repeat;	
+}
+
+.reviewsWrapper {
+    flex: 1 0 auto;
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toReviews {
+	padding-top: 4.4vh;
+}
+
+
+ 
+.toReviews > a, .toAboutUs > a {
+	display: block;
+    margin: 0 auto;
+    width: 100px;  
+}
+      
+.toReviews > a:after {
+	content: '';
+	background: url(../images/mainPage/arrowDown.png) no-repeat center center;
+	width: 17px;
+	height: 10px;
+	position: absolute;
+	top: 17px;
+} 
+
+.toAboutUs > a:after {
+	/*left: 0px !important;*/
+}
+
+.h1Uslugi {
+	font-family: 'LatoWebBold';
+	font-size: 2.6em;
+	color: #fff;
+	text-align: center;
+	margin-top: 2.8vh;
+}
+
+.h2Uslugi {
+    font-family: 'LatoWeb';
+    font-size: 1.4em;
+    color: #fff;
+    line-height: 1.5em;
+    text-align: center;
+    max-width: 770px;
+    margin: 2.8vh auto 0 auto;
+}
+
+.employerSlider {
+	margin-top: 6vh;
+}
+
+.employerBlock {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.employerPhoto {
+	border-radius: 50%;
+}
+
+.employerTitle {
+	font-family: 'LatoWebBold';
+	font-size: 1.2em;
+	color: #fff;
+	text-align: center;
+	margin-top: 3.8vh;  
+}
+
+.employerDesc {
+	font-family: 'LatoWeb';
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #fff;
+	text-align: center;
+	margin-top: 2vh;  
+}
+
+.employerSocials {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 170px;
+	margin-top: 3.8vh;
+}
+
+.employerSocials > .social {
+    border-radius: 50%;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.employerSocials > .social:hover {
+	background: #834e98;
+}
+
+div.employerSlider.slick-initialized.slick-slider > div > div > div {
+	display: flex !important;
+}
+
+.employerSlider > .slick-prev {
+    left: -15px;
+        top: 35%;
+    z-index: 2000;    
+}
+
+.employerSlider > .slick-next {
+    right: -15px;
+        top: 35%;
+    z-index: 2000;  
+}
+
+.employerSlider > .slick-next:before {
+    content: url(../images/aboutPage/employer_right.png);
+}
+
+.employerSlider > .slick-prev:before {
+    content: url(../images/aboutPage/employer_left.png);
+}
+
+.employerSlider.slick-initialized.slick-slider > div > div > div > div.employerSocials > a > img {
+	margin: 0px;
+}
+
+.ourAdvantages {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10vh;
+}
+
+.ourAdvantagesBlock {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+}
+
+
+
+.ourAdvantagesh1 {
+	position: relative;
+	color: #834e98;
+	font-family: 'LatoWebBold';
+	font-size: 1.2em;
+}
+.ourAdvantagesh1:before {
+    content: '';
+    background: url(../images/aboutPage/aboutReviewsOption.png) no-repeat center center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: -60px;
+    top: -10px;
+}
+
+.ourAdvantagesDesc {
+	font-family: 'LatoWeb';
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #fff;
+}
+
+.H1clientReviews {
+	margin-top: 8%;
+	font-family: 'LatoWebBold';
+	color: #b0cb1f;
+	font-size: 2.8em;
+	text-align: center;
+}
+
+.clientReviewsBlock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3.2vh;
+}
+
+.clientReviewsDesc{
+	font-family: 'LatoWeb';
+	font-size: 1em;
+	line-height: 1.6em;
+	color: #fff;
+	text-align: center;
+}	
+
+.clientReviewsName {
+	font-family: 'LatoWebBold';
+	font-size: 1.1em;
+	line-height: 1.4em;
+	color: #fff;
+	text-align: center;
+	margin-top: 2.6vh;
+}
+
+.clientReviewsLink {
+	font-family: 'LatoWeb';
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #b0cb1f;
+	text-align: center;
+	display: block;
+}
+
+
+.clientReviewsSlider > .slick-prev {	
+    top: 40%;
+    z-index: 2000;    
+}
+
+.clientReviewsSlider > .slick-next { 
+    top: 40%;
+    z-index: 2000;  
+}
+
+.clientReviewsSlider > .slick-next:before {
+    content: url(../images/aboutPage/aboutReviewsRight.png);
+}
+
+.clientReviewsSlider > .slick-prev:before {
+    content: url(../images/aboutPage/aboutReviewsLeft.png);
+}
+
+@media (min-width: 768px) {
+	.ourAdvantagesBlock {
+	    width: 20.333333%;
+	}
+
+	.clientReviewsSlider  {
+		width: 570px;
+		margin: 0 auto;
+	}
+
+	.clientReviewsSlider > .slick-prev {
+		left: -100px;
+	}	
+
+	.clientReviewsSlider > .slick-next {
+		right: -100px;
+	}	
+}
+
+@media (min-height: 900px) {
+	.ourAdvantages {
+	    margin-top: 10vh;
+	}
+
+	.H1clientReviews {
+		margin-top: 11%;
+	}
+
+	.toReviews {
+	padding-top: 10vh;
+	}
+
+	.h1Uslugi {
+		margin-top: 3.8vh;
+	}
+
+	.h2Uslugi {
+		margin: 3.8vh auto 0 auto;
+	}
+
+	.employerSlider {
+	margin-top: 8vh;
+	}
+	.serviseNode {
+		width: 300px;
+		height: 219px;
+		position: relative;
+		text-align: center;
+	}
+
+	.serviseNodes {
+		padding-top: 3vh;
+	}
+}
+
+
