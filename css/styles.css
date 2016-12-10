@@ -315,7 +315,23 @@ ul.mainMenu > li > a {
 	font-size: 1.6em; 
 	color: #535353;
 	padding-top: 4.5%;
+	font-weight: bold;
 }
+
+.serviseDescription a{
+	color: #535353;
+	text-decoration: none;
+}
+
+.serviseDescription a:hover{
+	color: #834e98;
+}
+
+.serviseDescription a:nth-of-type(2) {
+	padding-left: 4%; 
+}
+
+    
 
 .servicesPrices {
 	width: 39%;
@@ -744,3 +760,26 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
 }
 
 
+.tooltip {
+    position: absolute;
+    font-family: 'LatoWeb';
+	font-size: 1em;
+	line-height: 1.6em;
+    z-index: 1000;
+    border: 1px solid gray;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+   
+}
+
+.employerMoreInfo {
+	cursor: pointer;
+}
+
+.servicesDescription {
+	display: none;
+}
+
+.displayServiceDescription {
+	display: block;
+}

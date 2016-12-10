@@ -61,4 +61,16 @@ $(document).ready(function() {
 		$( this ).empty();
 	});
 
+	$('#portfolioGridStrizhkaZhen').addClass('displayServiceDescription');
+
+	$('.serviseNode').click(function(){
+		$('*').removeClass('displayServiceDescription');
+		var node = $(this).attr("attrid");
+		console.log(node);
+		$('#' + node).addClass('displayServiceDescription');
+	
+	});
+
+
+
 });
