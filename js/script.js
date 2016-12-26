@@ -62,13 +62,17 @@ $(document).ready(function() {
 	});
 
 	$('#portfolioGridStrizhkaZhen').addClass('displayServiceDescription');
+	$('.portfolioGridStrizhkaZhenClass').addClass('displayServiceDescription');
+
 
 	$('.serviseNode').click(function(){
 		$('*').removeClass('displayServiceDescription');
 		var node = $(this).attr("attrid");
-		console.log(node);
+		var nodeClass = node + "Class"
+
 		$('#' + node).addClass('displayServiceDescription');
-	
+		$( '.' + nodeClass).addClass('displayServiceDescription');
+		
 	});
 
 

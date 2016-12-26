@@ -13,11 +13,11 @@
 				<div class="employerSlider">
 
 				<? foreach($employers->contents as $employer):?>
-					<div class="employerBlock">
-						<img src="images/aboutPage/employer_1.png" alt="<?= $employer->name ?>" class="employerPhoto">
+					<div class="employerBlock" >
+						<img src="images/aboutPage/<?= $employer->photo ?>" alt="<?= $employer->name ?>" class="employerPhoto" id="employerInfo<?= $employer->employerNumber ?>">
 						<div class="employerTitle"><?= $employer->name ?></div>
 						<div class="employerDesc"><?= $employer->position ?>
-							<br><span class="employerMoreInfo"  id="employerInfo<?= $employer->employerNumber ?>">Подробнее...</span>
+							<br><span class="employerMoreInfo"  >Подробнее...</span>
 						</div>
 						<div class="employerSocials">
 							<a href="<?= $employer->vkLink ?>" class="vk social">
@@ -57,26 +57,28 @@
 				<div class="ourAdvantages">
 					<div class="ourAdvantagesBlock">
 						<div class="ourAdvantagesh1">
-							Комплексный подход
+							Индивидуальный подход
 						</div>
 						<div class="ourAdvantagesDesc">
-							Средний покупатель перед тем, как начать покупать, бродит по супермаркету около 15 минут.
+							Все наши клиенты достойны эксклюзивности, 
+							и мы обеспечиваем индивидуальный и творческий подход к
+							каждому клиенту!
 						</div>
 					</div>
 					<div class="ourAdvantagesBlock">
 						<div class="ourAdvantagesh1">
-							Комплексный подход
+							Гарантия качества
 						</div>
 						<div class="ourAdvantagesDesc">
-							Средний покупатель перед тем, как начать покупать, бродит по супермаркету около 15 минут.
+							Для Вас работают только опытные мастера, используются только проверенные современные технологии и исключительно качественная продукция лучших производителей косметики. 
 						</div>
 					</div>
 					<div class="ourAdvantagesBlock">
 						<div class="ourAdvantagesh1">
-							Комплексный подход
+							Широкий спектр услуг 
 						</div>
 						<div class="ourAdvantagesDesc">
-							Средний покупатель перед тем, как начать покупать, бродит по супермаркету около 15 минут.
+							У нас всегда широкий выбор услуг, из которых наши мастера создадут индивидуальную программу Вашего преображения.
 						</div>
 					</div>
 				</div>

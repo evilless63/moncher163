@@ -101,6 +101,12 @@ ul.mainMenu > li > a {
 	margin: 0 auto;
 	margin-top: 8.9vh;
 }
+
+section > div.welcomeSlider.slick-initialized.slick-slider > div > div > a > img {
+	width: 246px;
+	height: 236px;
+}
+
 .toShares {
 	text-align: center;
 	padding-top: 10.4vh;
@@ -517,7 +523,7 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
 .ourAdvantages {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+    align-items: baseline;
 	margin-top: 10vh;
 }
 
@@ -778,6 +784,11 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
 
 .servicesDescription {
 	display: none;
+}
+
+.servicesPrices {
+	display: none;
+    background: none;
 }
 
 .displayServiceDescription {

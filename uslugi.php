@@ -42,9 +42,9 @@
                             <div class="serviseDescription"><a href="doc/price1.pdf" target="_blank">Прайс №1</a><a href="doc/price2.pdf" target="_blank">Прайс №2</a></div>
                             
                     </div>
+                    <div class="servicesPrices <?=$servise->servisesAttrAndClass. 'Class' ?>">
+                        <p><span>От</span> <?=$servise->price ?> руб</p>
+                    </div>
                 <? endforeach; ?>
-                <div class="servicesPrices">
-                    <p><span>От</span>1500 руб</p>
-                </div>
 			</div>
 		<? include 'layouts/footer.php' ?>

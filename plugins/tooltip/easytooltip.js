@@ -1,8 +1,8 @@
 jQuery.fn.tooltip = function(options) {		
 	var options = jQuery.extend({
 		txt: '', 
-		maxWidth: 300,
-		effect: 'fadeIn',
+		maxWidth: 500,
+		effect: 'show',
 		duration: 300
 	},options);
 	
@@ -48,6 +48,6 @@ jQuery.fn.tooltip = function(options) {
 			else helper.css({left: e.pageX + 5 + "px"});
 		
 			if (e.pageY - helper.height() - 25 < $(document).scrollTop()) helper.css({top: e.pageY + 25 + "px"});
-			else helper.css({top: e.pageY - helper.height() - 25 + "px"});
+			else helper.css({top: e.pageY - helper.height() - 55 + "px"});
 		};
 };

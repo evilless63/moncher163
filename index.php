@@ -16,29 +16,71 @@
 					сделать еще один шаг на пути к абсолютной красоте!
 				</h2>
 				<div class="welcomeSlider">
-					<a href="images/mainPage/sliderPhoto1.jpg" class="fancyBoxImg" rel="gallery">
-						<img src="images/mainPage/sliderPhoto1.jpg" alt="">		
+					<a href="images/mainPage/1.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/1.jpg" alt="">		
 					</a>
-					<a href="images/mainPage/sliderPhoto2.jpg" class="fancyBoxImg" rel="gallery">
-						<img src="images/mainPage/sliderPhoto2.jpg" alt="">		
+					<a href="images/mainPage/2.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/2.jpg" alt="">		
 					</a>
-					<a href="images/mainPage/sliderPhoto3.jpg" class="fancyBoxImg" rel="gallery">
-						<img src="images/mainPage/sliderPhoto3.jpg" alt="">		
+					<a href="images/mainPage/3.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/3.jpg" alt="">		
 					</a>
-					<a href="images/mainPage/sliderPhoto4.jpg" class="fancyBoxImg" rel="gallery">
-						<img src="images/mainPage/sliderPhoto4.jpg" alt="">		
+					<a href="images/mainPage/4.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/4.jpg" alt="">		
 					</a>
-					<a href="images/mainPage/sliderPhoto1.jpg" class="fancyBoxImg" rel="gallery">
-						<img src="images/mainPage/sliderPhoto1.jpg" alt="">		
+					<a href="images/mainPage/5.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/5.jpg" alt="">		
 					</a>
-					<a href="images/mainPage/sliderPhoto2.jpg" class="fancyBoxImg" rel="gallery">
-						<img src="images/mainPage/sliderPhoto2.jpg" alt="">		
+					<a href="images/mainPage/6.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/6.jpg" alt="">		
 					</a>
-					<a href="images/mainPage/sliderPhoto3.jpg" class="fancyBoxImg" rel="gallery">
-						<img src="images/mainPage/sliderPhoto3.jpg" alt="">		
+					<a href="images/mainPage/7.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/7.jpg" alt="">		
 					</a>
-					<a href="images/mainPage/sliderPhoto4.jpg" class="fancyBoxImg" rel="gallery">
-						<img src="images/mainPage/sliderPhoto4.jpg" alt="">		
+					<a href="images/mainPage/8.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/8.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/1.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/9.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/2.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/10.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/3.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/11.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/4.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/12.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/5.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/13.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/6.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/14.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/7.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/15.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/8.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/16.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/2.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/17.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/3.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/18.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/4.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/19.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/5.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/20.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/6.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/21.jpg" alt="">		
+					</a>
+					<a href="images/mainPage/7.jpg" class="fancyBoxImg" rel="gallery">
+						<img src="images/mainPage/22.jpg" alt="">		
 					</a>
 				</div>
 				<div class="toShares">
