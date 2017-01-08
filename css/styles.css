@@ -1067,7 +1067,7 @@ ul.mainMenu > li > a {
 .H1clientReviews {
     margin-top: 6%;
     font-family: 'LatoWebBold';
-    color: #b0cb1f;
+    color: #834e98;
     font-size: 1.5em;
     text-align: center;
 }
@@ -1128,6 +1128,11 @@ ul.mainMenu > li > a {
 
 .sharesSliderBlock {
     height: 320px !important;
+}
+
+.header {
+	position: relative;
+    width: 100vw;
 }
 
 }
