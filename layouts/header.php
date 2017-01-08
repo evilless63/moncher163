@@ -19,17 +19,18 @@
 	<link rel="stylesheet" href="css/reset.css">
 	
 	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 	<script src="plugins/fullpage/jquery.fullpage.min.js"></script>	
 	<script type="text/javascript" src="plugins/fullpage/scrolloverflow.min.js"></script>
 	<script src="plugins/slick/slick.min.js"></script>
 	<script src="plugins/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="plugins/tooltip/easytooltip.js"></script>
 	<script src="js/script.js"></script>
-
+	<meta name=viewport content="width=device-width, initial-scale=1">
 	<title><?= $title?></title>
 </head>
 <body>
-	
+	<div class="se-pre-con"></div>
 	<?= $wrapperType?>
 		
 		<article class="<?= $articleClass?>" data-anchor="<?= $articleDataAncor?>">

@@ -4,7 +4,7 @@
 			$title = 'Mon Cher - Салон красоты';
 			$articleClass = 'section servises backgroundCover fp-section active fp-completely';
 			$articleDataAncor = 'servises';
-			include '/layouts/header.php';
+			include 'layouts/header.php';
 
 		?>
 			<section class="welcomePresentation serviseNodes container">

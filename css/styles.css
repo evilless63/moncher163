@@ -379,11 +379,25 @@ section > div.welcomeSlider.slick-initialized.slick-slider > div > div > a > img
 
 
 .aboutUs {
-	background: url(../images/aboutPage/aboutWe.jpg) top center no-repeat;	
+	/*background: url(../images/aboutPage/aboutWe.jpg) top center no-repeat;	*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#daade7+0,f2aff6+100 */
+background: #daade7; /* Old browsers */
+background: -moz-linear-gradient(top,  #daade7 0%, #f2aff6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #daade7 0%,#f2aff6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #daade7 0%,#f2aff6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daade7', endColorstr='#f2aff6',GradientType=0 ); /* IE6-9 */
+
 }
 
 .clientReviews {
-	background: url(../images/aboutPage/aboutReviews.jpg) top center no-repeat;	
+	/*background: url(../images/aboutPage/aboutReviews.jpg) top center no-repeat;	*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2aff6+0,daade7+100 */
+background: #f2aff6; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2aff6 0%, #daade7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f2aff6 0%,#daade7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f2aff6 0%,#daade7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2aff6', endColorstr='#daade7',GradientType=0 ); /* IE6-9 */
+
 }
 
 .reviewsWrapper {
@@ -554,7 +568,7 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
 
 .ourAdvantagesDesc {
 	font-family: 'LatoWeb';
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 1.5em;
 	color: #fff;
 }
@@ -562,7 +576,7 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
 .H1clientReviews {
 	margin-top: 8%;
 	font-family: 'LatoWebBold';
-	color: #b0cb1f;
+	color: #834e98;
 	font-size: 2.8em;
 	text-align: center;
 }
@@ -571,12 +585,12 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 3.2vh;
+	margin-top: 2.2vh;
 }
 
 .clientReviewsDesc{
 	font-family: 'LatoWeb';
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 1.6em;
 	color: #fff;
 	text-align: center;
@@ -793,4 +807,327 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
 
 .displayServiceDescription {
 	display: block;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/load.gif) center no-repeat #fff;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .welcomeH1 {
+	
+  }
+
+  .welcomeH1 {
+    font-family: LatoWebBold;
+    font-size: 1.9em;
+    color: #fff;
+    text-shadow: 0 0 1px #494849, 0 0 90px rgba(176, 203, 31, 0.61 );
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    /* padding-top: 8.3vh; */
+  }
+
+  .welcomeH2 {
+    font-family: LatoWebLight;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding-top: 4vh;
+  }
+
+  .welcomeSlider  {
+  	display: none !important;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainMenu {
+    display: none;
+    margin-top: 100px;
+    position: absolute;
+        width: 100vw !important;
+    padding: 10px 20px;
+    background: #fff;
+        z-index: 40000;
+}
+
+ul.mainMenu > li {
+    padding: 0px 20px;
+}
+
+ul.mainMenu > li > a {
+    font-family: LatoWeb;
+    font-size: 1.5em;
+    color: #464c55;
+    line-height: 1.4em;
+    text-decoration: none;
+}
+	.phone {
+    font-family: LatoWebBold;
+    font-size: 0.7em;
+    color: #b08fbd;
+}
+
+.logo {
+    width: 50%;
+}
+
+.share1 {
+	background: none;
+}
+
+.shareH1 {
+    font-family: LatoWebBold;
+    font-size: 1.7em;
+    color: #87539b;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 19vh;
+    padding-left: 0;
+}
+.shareH2 {
+    font-family: LatoWeb;
+    font-size: 1.2em;
+    color: #535353;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.2em;
+    padding-left: 0;
+}
+
+.targetFlexVerticalCenter {
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicesDescription {
+    width: 100% !important;
+}
+
+.serviseHeader {
+    font-family: LatoWebBold;
+    font-size: 1.7em;
+    color: #535353;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 6%;
+}
+
+.serviseSubHeader {
+    font-family: LatoWebLight;
+    font-size: 1.2em;
+    color: #535353;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.1em;
+    padding-top: 0.5%;
+}
+
+.serviseDescription {
+    font-family: LatoWebLight;
+    font-size: 1em;
+    color: #535353;
+    padding-top: 4.5%;
+    font-weight: bold;
+}
+
+.serviseDescription {
+    font-family: LatoWebLight;
+    font-size: 0.9em;
+    color: #535353;
+    padding-top: 4.5%;
+    font-weight: bold;
+}
+
+.servicesPrices {
+    width: 100% !important;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.servicesPrices p {
+    font-family: LatoWebBold;
+    font-size: 1.2em;
+    color: #9f74a5;
+}
+
+.servisesInfoWrap {
+    display: block;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nodeTextInfoButton {
+    font-family: LatoWeb;
+    font-size: 1.1em;
+    color: #fefefe;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    text-decoration: none;
+}
+.h1Uslugi {
+    font-family: 'LatoWebBold';
+    font-size: 1.6em;
+    color: #fff;
+    text-align: center;
+    margin-top: 2.8vh;
+}
+.h2Uslugi {
+    font-family: 'LatoWeb';
+    font-size: 0.9em;
+    color: #fff;
+    line-height: 0.8em;
+    text-align: center;
+    max-width: 770px;
+    margin: 2.8vh auto 0 auto;
+}
+.slick-slide img {
+    display: block;
+    margin-left: 10px;
+    width: 70%;
+}
+
+.employerTitle {
+    font-family: 'LatoWebBold';
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+    margin-top: 1.8vh;
+}
+
+.employerDesc {
+    font-family: 'LatoWeb';
+    font-size: 0.8em;
+    line-height: 0.9em;
+    color: #fff;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.employerSocials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 1.8vh;
+}
+.employerSocials > .social {
+    border-radius: 50%;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourAdvantages {
+    display: block;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 2vh;
+}
+.ourAdvantagesh1 {
+    position: relative;
+    color: #834e98;
+    font-family: 'LatoWebBold';
+    font-size: 1em;
+}
+.ourAdvantagesDesc {
+    font-family: 'LatoWeb';
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.H1clientReviews {
+    margin-top: 6%;
+    font-family: 'LatoWebBold';
+    color: #b0cb1f;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.clientReviewsDesc {
+    font-family: 'LatoWeb';
+    font-size: 0.8em;
+    line-height: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+.clientReviewsName {
+    font-family: 'LatoWebBold';
+    font-size: 0.9em;
+    line-height: 1em;
+    color: #fff;
+    text-align: center;
+    margin-top: 1.6vh;
+}
+
+.fb > img {
+	width: 6px;
+}
+
+.ContactsTitle {
+    font-family: 'LatoWebBold';
+    font-size: 1.6em;
+    color: #834e98;
+    text-transform: uppercase;
+}
+
+.ContactsAdress {
+    font-family: 'LatoWebBold';
+    font-size: 1.8em;
+    line-height: 1.3em;
+    color: #834e98;
+    margin-top: 5.5%;
+    text-align: center;
+}
+
+.ContactsPhone {
+    font-family: 'LatoWebBold';
+    font-size: 1.8em;
+    color: #535353;
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 9%;
+}
+
+.toContacts > a:after {
+    content: '';
+    background: none;
+    position: absolute;
+    left: 40px;
+    top: 17px;
+}
+
+.sharesSliderBlock {
+    height: 320px !important;
+}
+
 }

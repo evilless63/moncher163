@@ -4,7 +4,7 @@
 			$title = 'Mon Cher - Салон красоты';
 			$articleClass = 'section contactsInfo  targetFlexVerticalCenter  fp-section active fp-completely';
 			$articleDataAncor = 'contactsInfo';
-			include '/layouts/header.php';
+			include 'layouts/header.php';
 
 		?>
 			<section class="welcomePresentation contactsSection container">

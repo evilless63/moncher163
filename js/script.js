@@ -22,7 +22,7 @@ $(document).ready(function() {
 	$('.welcomeSlider').slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 2000,
 	});
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
 	$('.sharesSlider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 2000,
 		infinite: true,
 		fade: true,
@@ -76,5 +76,15 @@ $(document).ready(function() {
 	});
 
 
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
+	if($(window).width() <= 600) {
+		$(".header").click(function(){
+			$(".mainMenu").toggle();
+		});	
+	}
 
 });

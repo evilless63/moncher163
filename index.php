@@ -4,7 +4,7 @@
 			$title = 'Mon Cher - Салон красоты';
 			$articleClass = 'section welcome backgroundCover';
 			$articleDataAncor = 'welcome';
-			include '/layouts/header.php';
+			include 'layouts/header.php';
 
 		?>
 			<section class="welcomePresentation container">
