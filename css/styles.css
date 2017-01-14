@@ -112,21 +112,21 @@ section > div.welcomeSlider.slick-initialized.slick-slider > div > div > a > img
 	padding-top: 10.4vh;
 }
 .toShares > a {
-	font-family: LatoWeb;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #fff;
-	font-size: 14px;
-	position: relative;
+    font-family: LatoWeb;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    position: relative;
 }
 .toShares > a:after {
-	content: '';
-	background: url(../images/mainPage/arrowDown.png) no-repeat center center;
-	width: 17px;
-	height: 10px;
-	position: absolute;
-	left: 40px;
-	top: 17px;
+    content: '';
+    background: url(../images/mainPage/arrowDown.png) no-repeat center center;
+    width: 17px;
+    height: 10px;
+    position: absolute;
+    left: 77px;
+    top: 30px;
 } 
 /******/
 .sharesSlider {
@@ -426,6 +426,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2aff6', end
 	height: 10px;
 	position: absolute;
 	top: 17px;
+    left: 40px;
 } 
 
 .toAboutUs > a:after {
@@ -574,7 +575,7 @@ div.employerSlider.slick-initialized.slick-slider > div > div > div {
 }
 
 .H1clientReviews {
-	margin-top: 8%;
+	margin-top: 4%;
 	font-family: 'LatoWebBold';
 	color: #834e98;
 	font-size: 2.8em;
@@ -986,8 +987,10 @@ ul.mainMenu > li > a {
     color: #fefefe;
     padding: 0px;
     border-radius: 5px;
-    background-color: transparent;
     text-decoration: none;
+        background-color: #b0cb1f;
+    text-decoration: none;
+    padding: 6px 6px;
 }
 .h1Uslugi {
     font-family: 'LatoWebBold';
@@ -1045,6 +1048,18 @@ ul.mainMenu > li > a {
     justify-content: center;
     align-items: center;
 }
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+    align-items: center;
+}
+
+.social > a > img {
+	    width: 75%;
+}
+
 .ourAdvantages {
     display: block;
     justify-content: space-around;

@@ -10,7 +10,7 @@
 			<section class="welcomePresentation contactsSection container">
 				<div class="ContactsTitle"><span>Наши</span> контакты</div>
 				<div class="ContactsAdress">город Самара<br> ул. Мориса-Тореза 79</div>
-				<div class="ContactsPhone">8(846) 990-48-05</div>
+				<div class="ContactsPhone">990-48-05</div>
 				<div class="toShares toReviews toMap">
 					<a href="#contactsMap">Посмотреть карту</a>
 				</div>	

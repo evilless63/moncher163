@@ -19,7 +19,7 @@
 						<div class="employerDesc"><?= $employer->position ?>
 							<br><span class="employerMoreInfo"  >Подробнее...</span>
 						</div>
-						<div class="employerSocials">
+						<!-- <div class="employerSocials">
 							<a href="<?= $employer->vkLink ?>" class="vk social">
 								<img src="images/aboutPage/employer_vk.png" alt="">
 							</a>
@@ -30,7 +30,7 @@
 							<a href="<?= $employer->instLink ?>" class="tw social">
 								<img src="images/aboutPage/employer_tw.png" alt="">
 							</a>
-						</div>
+						</div> -->
 						<script>
 							$(document).ready(function(){
 								var item = "employerInfo<?= $employer->employerNumber ?>" ;
